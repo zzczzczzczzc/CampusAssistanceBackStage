@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <display-name>web</display-name>
+    <servlet>
+        <display-name>Goods</display-name>
+        <servlet-name>Goods</servlet-name>
+        <servlet-class>Goods</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Goods</servlet-name>
+        <url-pattern>/InsertGoodMessage</url-pattern>
+    </servlet-mapping>
+
+
+    <display-name>web</display-name>
+    <servlet>
+        <display-name>GoodsRequest</display-name>
+        <servlet-name>GoodsRequest</servlet-name>
+        <servlet-class>GoodsRequest</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GoodsRequest</servlet-name>
+        <url-pattern>/GoodsRequest</url-pattern>
+    </servlet-mapping>
+
+
+    <display-name>web</display-name>
+    <servlet>
+        <display-name>GoodsReleasedRecord</display-name>
+        <servlet-name>GoodsReleasedRecord</servlet-name>
+        <servlet-class>GoodsReleasedRecord</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GoodsReleasedRecord</servlet-name>
+        <url-pattern>/GoodsReleasedRecord</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
